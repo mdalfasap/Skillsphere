@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skillsphere</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="stylesheet" href="index.css">
+    <style>
+      body {
+        background-image: url("");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #000000
+      }
+
+      .navbar {
+        background-color:#5c5959
+      }
+
+      .navbar-brand,
+      .nav-link {
+        color: rgb(18, 18, 18) !important;
+      }
+
+      .container-fluid {
+        padding-top: 50px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 3em;
+        color: aliceblue;
+      }
+
+      p {
+        font-size: 1.5em;
+        color: aliceblue;
+      }
+      img {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#"> <img src="/Frame 6.png" alt="" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h2>Welcome to skillsphere</h2>
+      <p>
+        Exciting Skill Development Coming Soon! Get ready to elevate your
+        abilities with our upcoming skill development program..
+      </p>
+    </div>
+<!--   
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="ag-courses_item">
+              <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+                  <div class="ag-courses-item_title">
+                       MERN STACK DEVELOPMENT 
+                  </div>
+                  <div class="ag-courses-item_date-box">
+                      Start:
+                      <span class="ag-courses-item_date">
+                        03.06.2024
+                      </span>
+                  </div>
+              </a>
+          </div>
+      </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="ag-courses_item">
+              <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+                  <div class="ag-courses-item_title">
+                    FLUTTER DEVELOPMENT
+                  </div>
+                  <div class="ag-courses-item_date-box">
+                      Start:
+                      <span class="ag-courses-item_date">03.06.2024</span>
+                  </div>
+              </a>
+          </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="ag-courses_item">
+              <a href="#" class="ag-courses-item_link">
+                  <div class="ag-courses-item_bg"></div>
+                  <div class="ag-courses-item_title">
+                     UI/UX+Graph designer 
+                  </div>
+                  <div class="ag-courses-item_date-box">
+                      Start:
+                      <span class="ag-courses-item_date">03.06.2024</span>
+                  </div>
+              </a>
+          </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-color:#1FACF3 ; padding-top: 80px;">
+  <div class="overlay-mf"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="contact-mf">
+          <div id="contact" class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-box-2">
+                  <h5 class="title-left">Send Me Message</h5>
+                </div>
+                <div>
+                  <form action=" " method="post" role="form" class="contactForm">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter your full name"/>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 characters for the subject"/>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="submit" class="button button-a button-big button-rounded">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="title-box-2 pt-4 pt-md-0">
+                  <h5 class="title-left">Get in Touch</h5>
+                </div>
+                <div class="more-info">
+                  <p class="lead">For building a good relationship, increasing efficiency, and fostering a helpful mindset between us, follow me on social media.</p>
+                  <ul class="list-ico">
+                    <li><span class="ion-ios-location"></span> hilite bussines park  Kozhikode</li>
+                    <li><span class="ion-ios-telephone"></span> (+91) 8590712033</li>
+                    <li><span class="ion-email"></span> mdalfasap313@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="socials">
+                  <ul>
+                    <li><a href="https://www.facebook.com/muhammad.alfas.773"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                    <li><a href="https://www.instagram.com/al__fas___/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                    <li><a href="https://wa.me/8590712033"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+
+  
+    
+      
+         -->
+      
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
